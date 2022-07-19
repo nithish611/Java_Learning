@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class BinarySearch {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-        System.out.print("Enter No of Elements In An Array : ");
+        System.out.print("Enter No of Elements In An Array : ");           // Time Complexity : 0 ( log n )
         int n=sc.nextInt();
         int[] arr = new int[n];
         for (int i = 0; i < n ; i++) {
