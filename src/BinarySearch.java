@@ -22,14 +22,14 @@ public class BinarySearch {
 
     private static boolean binarysearch(int[] arr, int t) {
         int start=0;
-        int end=0;
+        int end=arr.length;
         while(start<end){
 
-            int mid=start-(end-start)/2;
+            int mid=start+(end-start)/2;
 
-            if(mid==t) return true;
+            if(arr[mid]==t) return true;
 
-            if(mid>t){
+            if(arr[mid]>t){
                 start=mid+1;
             }else{
                 end=mid-1;
