@@ -25,7 +25,7 @@ public class BinarySearch {
         int end=arr.length;
         while(start<end){
 
-            int mid=start+(end-start)/2;
+            int mid=start+(end-start)/2;   // integer may exclude On the range
 
             if(arr[mid]==t) return true;
 
